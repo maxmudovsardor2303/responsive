@@ -1,0 +1,41 @@
+@import url(../header/nav/nav.css);
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../../Rectangle\ 31.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header main {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+}
+header .header_main-recomment {
+  max-width: 448px;
+}
+header .header_main-dasc {
+  max-width: 804px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+header .header_main-dasc h2 {
+  font-size: 55px;
+  line-height: 68px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+header .header_main-dasc p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  header {
+    background-position: right;
+  }
+}/*# sourceMappingURL=header.css.map */
